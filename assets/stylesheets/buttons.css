@@ -11,7 +11,11 @@ button.button-login {
   color: initial !important;
   font-weight: normal !important;
   text-align: center !important;
-  background-color: white;
+}
+
+button.button-login,
+button.button-login:hover {
+  background-image: -webkit-linear-gradient(bottom, #ddd, white) !important;
 }
 
 .button-login-icon {
@@ -22,6 +26,5 @@ button.button-login {
 
 .button-login-text {
   line-height: 21px;
-  background-image: -webkit-linear-gradient(bottom, #ddd, white);
   font-size: 12px;
 }
